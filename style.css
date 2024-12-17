@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;  /* Définit la police de caractères de tout le texte */
+    margin: 0;  /* Supprime les marges par défaut du navigateur */
+    padding: 0;  /* Supprime les espacements internes */
+    background-color: #ffffff;  /* Définit une couleur de fond claire */
+    color: #333;  /* Définit la couleur du texte */
+    height: 100vh;  /* Définit la hauteur du body à 100% de la hauteur de la fenêtre (viewport) */
+    display: flex;  /* Utilise le modèle de mise en page flexbox pour centrer les éléments */
+    justify-content: center;  /* Centre horizontalement les éléments à l'intérieur du body */
+    align-items: center;  /* Centre verticalement les éléments à l'intérieur du body */
+    box-sizing: border-box;  /* Permet de prendre en compte les bordures et marges dans les dimensions de l'élément */
+    display: grid;
+}
+
+.Test-Container {
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+}
